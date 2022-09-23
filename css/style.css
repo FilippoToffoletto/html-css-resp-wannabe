@@ -144,5 +144,9 @@ img {
     .row{
         display: flex;
         flex-direction: column;
+        background-color: green;
+    }
+    .container{
+        background-color: green;
     }
  }
