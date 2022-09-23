@@ -135,14 +135,14 @@ img {
         justify-content: center;
         align-items: center;
     }
-    .container{
-        width: 100%;
-    }
     .steps{
         width: fit-content;
     }
  }
 
- @media (min-width:480px){
-    
+ @media (max-width: 480px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
  }
