@@ -129,24 +129,27 @@ img {
  ************************************************/
 
 
- @media (min-width:768px){
-    header{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .steps{
-        width: fit-content;
+ @media screen and (min-width:1110px){
+    .container{
+        width: 100%;
     }
  }
 
- @media (max-width: 480px){
-    .row{
-        display: flex;
-        flex-direction: column;
-        background-color: green;
+ @media screen and (max-width: 480px){
+    .lessons .col, 
+    .steps  .col,
+    .why-us .col{
+        width: 100%;
+        margin-bottom: 4rem;
     }
-    .container{
-        background-color: green;
+    .lessons .col:last-child, 
+    .steps .col:last-child,
+    .why-us .col:last-child{
+        margin-bottom: 0;
+    }
+    .why-us{
+        background-color: #222222;
+        padding: 3rem 0;
+        margin-bottom: 0;
     }
  }
